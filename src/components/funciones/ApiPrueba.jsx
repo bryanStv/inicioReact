@@ -12,7 +12,7 @@ function AñadirJoke(){
             });
         }, []);
 
-        return <p>{broma}</p>
+        return <p id="broma">{broma}</p>
 
 }
 
