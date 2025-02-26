@@ -13,8 +13,14 @@ function ComponenteBusquedaAlumno() {
     };
 
     const confirmarBorrado = () => {
-        borrarAlumno();
-        alert("Alumno borrado correctamente")
+        const confirmar = window.confirm("Seguro que quieres borrar al alumno?");
+
+        if(confirmar) {
+            borrarAlumno()
+            alert("Alumno borrado correctamente")
+        }else{
+            alert("No se ha borrado el alumno")
+        }
     };
 
 
