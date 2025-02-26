@@ -36,7 +36,6 @@ function CrearAlumno(){
 
     return (
         <div className="formularioCrearAlumno">
-            <h1>Crear Alumno</h1>
             <form onSubmit={enviarFormulario}>
                 <label>Nombre:</label>
                 <input type="text" value={nombre} onChange={(e) => setNombre(e.target.value)}/>
