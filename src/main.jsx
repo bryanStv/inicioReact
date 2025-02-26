@@ -9,6 +9,7 @@ import ApiAlumnos from './components/funciones/ApiAlumnos.jsx'
 import CrearAlumno from './components/funciones/ApiCrearAlumno.jsx'
 import ActualizarAlumno from './components/funciones/ApiActualizarAlumno.jsx'
 import './index.css'
+import ComponenteBusquedaAlumno from './components/funciones/BusquedaAlumno.jsx'
 //import Formulario from './components/Formulario.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -18,6 +19,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/*<AñadirJoke />*/}
     <p>Crear Alumno</p>
     <CrearAlumno />
+
+    <p>Buscar alumno por id</p>
+    <ComponenteBusquedaAlumno />
 
     <p>Actualizar Alumno</p>
     <ActualizarAlumno />

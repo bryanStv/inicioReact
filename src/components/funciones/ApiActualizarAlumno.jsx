@@ -59,7 +59,7 @@ function ActualizarAlumno(){
                 <input type="text" value={direccion} onChange={(e) => setDireccion(e.target
                 .value)}/>
                 <br/>
-                <button type="submit">Aactualizar Alumno</button>
+                <button type="submit">Actualizar Alumno</button>
                 <button type="reset">Resetear</button>
             </form>
         </div>
