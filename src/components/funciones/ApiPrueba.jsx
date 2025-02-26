@@ -8,7 +8,7 @@ function AñadirJoke(){
         fetch('https://v2.jokeapi.dev/joke/programming')
             .then(response => response.json())
             .then(data => {
-                setBroma(data.delivery);
+                setBroma(data.joke);
             });
         }, []);
 
