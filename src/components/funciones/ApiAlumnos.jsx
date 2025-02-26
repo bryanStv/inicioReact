@@ -14,7 +14,7 @@ function ApiAlumnos(){
         }, []);
 
         return (
-            <div className="alumnos" style={{ height: "250px", overflowY: "scroll" }}>
+            <div className="alumnos">
                 {alumnos.length > 0 ? (
                     alumnos.map((alumno) => (
                         <div key={alumno.id} className="alumno">
